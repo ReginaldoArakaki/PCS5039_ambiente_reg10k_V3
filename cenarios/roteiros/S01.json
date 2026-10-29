@@ -1,0 +1,51 @@
+{
+  "versao": "v3dt.1",
+  "ambiente": "casa-b-familia",
+  "modo": "IDEAL",
+  "tipo": "APRENDIZADO",
+  "falhas": [],
+  "id": "S01",
+  "titulo": "Leitura na sala, sem faixa",
+  "duracao_ms": 1200000,
+  "hora_inicio": "20:00",
+  "estado_inicial": {
+    "ocupantes_na_sala": [
+      {
+        "id": "idoso",
+        "comodo": "sala",
+        "pos": [
+          6.0,
+          2.6
+        ]
+      }
+    ],
+    "luz": "APAGADA"
+  },
+  "descricao": "O idoso lê na sala às 20h, parado. Sem aprendizado, vale o T_apagamento de 60 s: a luz apaga e ele acena para acender de novo.",
+  "comportamento_ideal": "A luz fica acesa enquanto alguém lê.",
+  "comportamento_referencia": "Apaga cerca de 60 s depois do último movimento; o leitor acena em 3 a 10 s e a luz volta. É o padrão que o gêmeo aprende.",
+  "requisitos": [
+    "RF-OPR-01",
+    "CF05"
+  ],
+  "regras": [
+    "RN-I0-03",
+    "RN-V3-01"
+  ],
+  "acoes": [
+    {
+      "t_ms": 1000,
+      "ocupante": "idoso",
+      "acao": "ANDAR",
+      "ate": [
+        6.0,
+        2.6
+      ]
+    },
+    {
+      "t_ms": 6000,
+      "ocupante": "idoso",
+      "acao": "LER"
+    }
+  ]
+}

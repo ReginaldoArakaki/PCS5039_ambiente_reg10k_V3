@@ -1,0 +1,44 @@
+{
+  "cenario": "S03",
+  "modo": "IDEAL",
+  "semente_referencia": 42,
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01"
+  ],
+  "assercoes": [
+    {
+      "id": "A1",
+      "nivel": "REQUISITO",
+      "dado": "sugestão recusada",
+      "quando": "passa o T_apagamento de 60 s",
+      "entao": {
+        "tipo": "luz",
+        "comodo": "sala",
+        "valor": "APAGADA",
+        "desde_ms": 140000,
+        "ate_ms": 400000
+      }
+    },
+    {
+      "id": "A2",
+      "nivel": "CARACTERIZACAO",
+      "dado": "nada muda",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "metrica",
+        "nome": "apagamentos_indevidos",
+        "min": 12
+      }
+    },
+    {
+      "id": "INV",
+      "nivel": "REQUISITO",
+      "dado": "qualquer controlador",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "invariantes"
+      }
+    }
+  ]
+}

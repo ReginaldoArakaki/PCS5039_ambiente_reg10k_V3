@@ -1,0 +1,81 @@
+{
+  "versao": "v3dt.1",
+  "ambiente": "casa-b-familia",
+  "modo": "IDEAL",
+  "tipo": "APRENDIZADO",
+  "falhas": [],
+  "id": "S04",
+  "titulo": "Quarto à noite com a faixa curta já aceita",
+  "duracao_ms": 1200000,
+  "hora_inicio": "22:50",
+  "config_inicial": {
+    "versao": 2,
+    "faixas": {
+      "quarto": [
+        {
+          "de": "23:00",
+          "ate": "06:00",
+          "t_apagamento_ms": 30000
+        }
+      ]
+    },
+    "sugestoes_aceitas": [
+      "SUG-quarto-23-06"
+    ]
+  },
+  "estado_inicial": {
+    "ocupantes_na_sala": [
+      {
+        "id": "morador",
+        "comodo": "quarto",
+        "pos": [
+          7.5,
+          6.8
+        ]
+      },
+      {
+        "id": "moradora",
+        "comodo": "quarto",
+        "pos": [
+          6.0,
+          6.8
+        ]
+      }
+    ],
+    "luz": "APAGADA"
+  },
+  "descricao": "O casal no quarto: o morador dorme; a moradora lê até 22h55 e dorme. Em dias anteriores, o titular aceitou T_apagamento de 30 s no quarto das 23h às 6h.",
+  "comportamento_ideal": "Luz acesa enquanto ela lê; apagada logo que os dois dormem.",
+  "comportamento_referencia": "Antes das 23h vale 60 s; às 23h o hub troca para 30 s (FAIXA_APLICADA). Com os dois dormindo, a luz apaga 30 s depois do último movimento.",
+  "requisitos": [
+    "RF-OPR-01",
+    "RN-V1-05"
+  ],
+  "regras": [
+    "RN-V3-03",
+    "RN-V1-05",
+    "RN-DT-07"
+  ],
+  "acoes": [
+    {
+      "t_ms": 1000,
+      "ocupante": "morador",
+      "acao": "DORMIR"
+    },
+    {
+      "t_ms": 2000,
+      "ocupante": "moradora",
+      "acao": "LER"
+    },
+    {
+      "t_ms": 900000,
+      "ocupante": "moradora",
+      "acao": "GESTO"
+    },
+    {
+      "t_ms": 902000,
+      "ocupante": "moradora",
+      "acao": "DORMIR"
+    }
+  ]
+}

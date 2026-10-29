@@ -1,0 +1,43 @@
+{
+  "cenario": "S01",
+  "modo": "IDEAL",
+  "semente_referencia": 42,
+  "requisitos": [
+    "RF-OPR-01",
+    "CF05"
+  ],
+  "assercoes": [
+    {
+      "id": "A1",
+      "nivel": "CARACTERIZACAO",
+      "dado": "leitor parado e acordado",
+      "quando": "passa o T_apagamento de 60 s",
+      "entao": {
+        "tipo": "metrica",
+        "nome": "apagamentos_indevidos",
+        "min": 12
+      }
+    },
+    {
+      "id": "A2",
+      "nivel": "CARACTERIZACAO",
+      "dado": "leitor reage ao escuro",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "metrica",
+        "comodo": "sala",
+        "nome": "escuro_com_ocupante_s",
+        "min": 60
+      }
+    },
+    {
+      "id": "INV",
+      "nivel": "REQUISITO",
+      "dado": "qualquer controlador",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "invariantes"
+      }
+    }
+  ]
+}

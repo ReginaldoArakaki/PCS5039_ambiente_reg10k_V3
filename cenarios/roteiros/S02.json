@@ -1,0 +1,78 @@
+{
+  "versao": "v3dt.1",
+  "ambiente": "casa-b-familia",
+  "modo": "IDEAL",
+  "tipo": "APRENDIZADO",
+  "falhas": [],
+  "id": "S02",
+  "titulo": "Sugestão aceita: sala das 20h às 23h com 5 min",
+  "duracao_ms": 1200000,
+  "hora_inicio": "20:00",
+  "estado_inicial": {
+    "ocupantes_na_sala": [
+      {
+        "id": "idoso",
+        "comodo": "sala",
+        "pos": [
+          6.0,
+          2.6
+        ]
+      }
+    ],
+    "luz": "APAGADA"
+  },
+  "sugestoes": [
+    {
+      "id": "SUG-sala-20-23",
+      "comodo": "sala",
+      "de": "20:00",
+      "ate": "23:00",
+      "t_apagamento_ms": 300000,
+      "evidencia": {
+        "dias": 14,
+        "apagamentos": 412,
+        "reacoes": 409,
+        "imoveis": 0
+      },
+      "motivo": "em 409 de 412 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+      "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+    }
+  ],
+  "descricao": "Mesma leitura do S01. O gêmeo sugeriu T_apagamento de 5 min na sala das 20h às 23h; o titular aceita no app em 1 min.",
+  "comportamento_ideal": "Depois do aceite, a luz fica acesa durante a leitura.",
+  "comportamento_referencia": "Aceite → versão pendente → hub aplica a faixa (CONFIG_APLICADA e FAIXA_APLICADA). A luz passa a apagar só depois de 5 min parado.",
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01"
+  ],
+  "regras": [
+    "RN-V3-01",
+    "RN-V3-02",
+    "RN-V3-03",
+    "RN-DT-07"
+  ],
+  "acoes": [
+    {
+      "t_ms": 1000,
+      "ocupante": "idoso",
+      "acao": "ANDAR",
+      "ate": [
+        6.0,
+        2.6
+      ]
+    },
+    {
+      "t_ms": 6000,
+      "ocupante": "idoso",
+      "acao": "LER"
+    },
+    {
+      "t_ms": 60000,
+      "ocupante": "app",
+      "acao": "APP_ACEITAR",
+      "sugestoes": [
+        "SUG-sala-20-23"
+      ]
+    }
+  ]
+}

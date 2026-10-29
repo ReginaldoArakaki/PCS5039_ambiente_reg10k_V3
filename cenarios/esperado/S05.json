@@ -1,0 +1,49 @@
+{
+  "cenario": "S05",
+  "modo": "IDEAL",
+  "semente_referencia": 42,
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01",
+    "RF-SYN-03"
+  ],
+  "assercoes": [
+    {
+      "id": "A1",
+      "nivel": "REQUISITO",
+      "dado": "canal fora",
+      "quando": "antes da reconexão vale 60 s",
+      "entao": {
+        "tipo": "luz",
+        "comodo": "sala",
+        "valor": "APAGADA",
+        "desde_ms": 140000,
+        "ate_ms": 300000
+      }
+    },
+    {
+      "id": "A2",
+      "nivel": "REQUISITO",
+      "dado": "canal volta",
+      "quando": "o hub aplica a faixa",
+      "entao": {
+        "tipo": "luz_constante",
+        "comodo": "sala",
+        "valor": "ACESA",
+        "entre_ms": [
+          340000,
+          600000
+        ]
+      }
+    },
+    {
+      "id": "INV",
+      "nivel": "REQUISITO",
+      "dado": "qualquer controlador",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "invariantes"
+      }
+    }
+  ]
+}

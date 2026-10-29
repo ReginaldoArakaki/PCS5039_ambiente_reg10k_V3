@@ -1,0 +1,85 @@
+{
+  "versao": "v3dt.1",
+  "ambiente": "casa-b-familia",
+  "modo": "IDEAL",
+  "tipo": "APRENDIZADO",
+  "falhas": [
+    {
+      "t_ms": 30000,
+      "tipo": "CANAL_DESCONECTA",
+      "duracao_ms": 300000
+    }
+  ],
+  "id": "S05",
+  "titulo": "Aceite com o canal fora",
+  "duracao_ms": 900000,
+  "hora_inicio": "20:00",
+  "estado_inicial": {
+    "ocupantes_na_sala": [
+      {
+        "id": "idoso",
+        "comodo": "sala",
+        "pos": [
+          6.0,
+          2.6
+        ]
+      }
+    ],
+    "luz": "APAGADA"
+  },
+  "sugestoes": [
+    {
+      "id": "SUG-sala-20-23",
+      "comodo": "sala",
+      "de": "20:00",
+      "ate": "23:00",
+      "t_apagamento_ms": 300000,
+      "evidencia": {
+        "dias": 14,
+        "apagamentos": 412,
+        "reacoes": 409,
+        "imoveis": 0
+      },
+      "motivo": "em 409 de 412 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+      "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+    }
+  ],
+  "descricao": "O titular aceita a sugestão da sala com o canal entre hub e plataforma fora por 5 min.",
+  "comportamento_ideal": "O aceite vira versão pendente; o hub só a aplica quando a sessão volta.",
+  "comportamento_referencia": "A versão fica PENDENTE e é distribuída na reconexão (RF-SYN-06); até lá, vale 60 s.",
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01",
+    "RF-SYN-03"
+  ],
+  "regras": [
+    "RN-V3-01",
+    "RN-V3-02",
+    "RN-V3-03",
+    "RN-DT-07"
+  ],
+  "acoes": [
+    {
+      "t_ms": 1000,
+      "ocupante": "idoso",
+      "acao": "ANDAR",
+      "ate": [
+        6.0,
+        2.6
+      ]
+    },
+    {
+      "t_ms": 6000,
+      "ocupante": "idoso",
+      "acao": "LER"
+    },
+    {
+      "t_ms": 60000,
+      "ocupante": "app",
+      "acao": "APP_ACEITAR",
+      "sugestoes": [
+        "SUG-sala-20-23"
+      ]
+    }
+  ]
+}

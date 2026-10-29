@@ -1,0 +1,207 @@
+{
+  "descricao": "Rotina de fim de tarde e noite da família na Casa B (v3dt.1). Horários de referência; cada dia varia por semente (var, em minutos) e alguns passos são eventuais (prob).",
+  "ambiente": "casa-b-familia",
+  "hora_inicio": "17:00",
+  "duracao_h": 8,
+  "modo": "IDEAL",
+  "ocupantes": {
+    "idoso": {
+      "comeca_em": "sala",
+      "passos": [
+        {
+          "as": "17:00",
+          "comodo": "sala",
+          "fazer": "LER"
+        },
+        {
+          "as": "18:30",
+          "var": 15,
+          "comodo": "cozinha",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "18:45",
+          "var": 15,
+          "comodo": "sala",
+          "fazer": "LER"
+        },
+        {
+          "as": "19:30",
+          "var": 10,
+          "comodo": "cozinha",
+          "fazer": "LER"
+        },
+        {
+          "as": "20:00",
+          "var": 10,
+          "comodo": "sala",
+          "fazer": "LER"
+        },
+        {
+          "as": "21:15",
+          "var": 20,
+          "comodo": "banheiro",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "21:25",
+          "var": 20,
+          "comodo": "quartotres",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "21:35",
+          "var": 20,
+          "comodo": "quartotres",
+          "fazer": "DORMIR"
+        }
+      ]
+    },
+    "crianca": {
+      "passos": [
+        {
+          "as": "17:30",
+          "var": 20,
+          "fazer": "ENTRAR",
+          "comodo": "quartodois",
+          "depois": "ANDAR"
+        },
+        {
+          "as": "19:30",
+          "var": 10,
+          "comodo": "cozinha",
+          "fazer": "LER"
+        },
+        {
+          "as": "20:00",
+          "var": 10,
+          "comodo": "sala",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "20:40",
+          "var": 15,
+          "comodo": "banheiro",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "20:50",
+          "var": 15,
+          "comodo": "quartodois",
+          "fazer": "DORMIR"
+        }
+      ]
+    },
+    "morador": {
+      "passos": [
+        {
+          "as": "18:30",
+          "var": 30,
+          "fazer": "ENTRAR",
+          "comodo": "quarto",
+          "depois": "ANDAR"
+        },
+        {
+          "as": "18:45",
+          "var": 30,
+          "comodo": "cozinha",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "19:30",
+          "var": 10,
+          "comodo": "cozinha",
+          "fazer": "LER"
+        },
+        {
+          "as": "20:00",
+          "var": 10,
+          "comodo": "sala",
+          "fazer": "LER"
+        },
+        {
+          "as": "22:15",
+          "var": 30,
+          "comodo": "banheiro",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "22:30",
+          "var": 30,
+          "comodo": "quarto",
+          "fazer": "DORMIR"
+        }
+      ]
+    },
+    "moradora": {
+      "passos": [
+        {
+          "as": "18:15",
+          "var": 30,
+          "fazer": "ENTRAR",
+          "comodo": "cozinha",
+          "depois": "ANDAR"
+        },
+        {
+          "as": "19:30",
+          "var": 10,
+          "comodo": "cozinha",
+          "fazer": "LER"
+        },
+        {
+          "as": "20:00",
+          "var": 5,
+          "comodo": "servico",
+          "fazer": "ANDAR",
+          "prob": 0.5
+        },
+        {
+          "as": "20:15",
+          "var": 10,
+          "comodo": "sala",
+          "fazer": "LER"
+        },
+        {
+          "as": "22:00",
+          "var": 20,
+          "comodo": "banheiro",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "22:10",
+          "var": 20,
+          "comodo": "quarto",
+          "fazer": "LER"
+        },
+        {
+          "as": "22:45",
+          "var": 20,
+          "comodo": "quarto",
+          "fazer": "DORMIR"
+        }
+      ]
+    },
+    "rex": {
+      "comeca_em": "servico",
+      "passos": [
+        {
+          "as": "17:00",
+          "comodo": "servico",
+          "fazer": "DORMIR"
+        },
+        {
+          "as": "19:30",
+          "var": 10,
+          "comodo": "cozinha",
+          "fazer": "ANDAR"
+        },
+        {
+          "as": "19:50",
+          "var": 10,
+          "comodo": "servico",
+          "fazer": "DORMIR"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cenario": "S04",
+  "modo": "IDEAL",
+  "semente_referencia": 42,
+  "requisitos": [
+    "RF-OPR-01",
+    "RN-V1-05"
+  ],
+  "assercoes": [
+    {
+      "id": "A1",
+      "nivel": "REQUISITO",
+      "dado": "os dois dormindo, depois das 23h",
+      "quando": "passa o T_apagamento da faixa (30 s)",
+      "entao": {
+        "tipo": "luz",
+        "comodo": "quarto",
+        "valor": "APAGADA",
+        "apos": {
+          "evento": "ADORMECEU",
+          "ocupante": "moradora"
+        },
+        "ate_ms": 40000
+      }
+    },
+    {
+      "id": "A2",
+      "nivel": "CARACTERIZACAO",
+      "dado": "faixa curta",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "metrica",
+        "nome": "luz_com_todos_dormindo_s",
+        "max": 40
+      }
+    },
+    {
+      "id": "INV",
+      "nivel": "REQUISITO",
+      "dado": "qualquer controlador",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "invariantes"
+      }
+    }
+  ]
+}

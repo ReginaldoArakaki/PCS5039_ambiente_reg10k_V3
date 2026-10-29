@@ -1,0 +1,46 @@
+{
+  "cenario": "S02",
+  "modo": "IDEAL",
+  "semente_referencia": 42,
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01"
+  ],
+  "assercoes": [
+    {
+      "id": "A1",
+      "nivel": "REQUISITO",
+      "dado": "faixa aceita em 1 min",
+      "quando": "o leitor fica parado quase 5 min",
+      "entao": {
+        "tipo": "luz_constante",
+        "comodo": "sala",
+        "valor": "ACESA",
+        "entre_ms": [
+          70000,
+          300000
+        ]
+      }
+    },
+    {
+      "id": "A2",
+      "nivel": "CARACTERIZACAO",
+      "dado": "faixa de 5 min",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "metrica",
+        "nome": "apagamentos_indevidos",
+        "max": 5
+      }
+    },
+    {
+      "id": "INV",
+      "nivel": "REQUISITO",
+      "dado": "qualquer controlador",
+      "quando": "o cenário termina",
+      "entao": {
+        "tipo": "invariantes"
+      }
+    }
+  ]
+}

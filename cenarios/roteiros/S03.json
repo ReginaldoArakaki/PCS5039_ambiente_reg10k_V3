@@ -1,0 +1,78 @@
+{
+  "versao": "v3dt.1",
+  "ambiente": "casa-b-familia",
+  "modo": "IDEAL",
+  "tipo": "APRENDIZADO",
+  "falhas": [],
+  "id": "S03",
+  "titulo": "Sugestão recusada",
+  "duracao_ms": 1200000,
+  "hora_inicio": "20:00",
+  "estado_inicial": {
+    "ocupantes_na_sala": [
+      {
+        "id": "idoso",
+        "comodo": "sala",
+        "pos": [
+          6.0,
+          2.6
+        ]
+      }
+    ],
+    "luz": "APAGADA"
+  },
+  "sugestoes": [
+    {
+      "id": "SUG-sala-20-23",
+      "comodo": "sala",
+      "de": "20:00",
+      "ate": "23:00",
+      "t_apagamento_ms": 300000,
+      "evidencia": {
+        "dias": 14,
+        "apagamentos": 412,
+        "reacoes": 409,
+        "imoveis": 0
+      },
+      "motivo": "em 409 de 412 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+      "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+    }
+  ],
+  "descricao": "Mesma leitura e mesma sugestão do S02, mas o titular recusa no app.",
+  "comportamento_ideal": "A recusa é registrada e nada muda na casa.",
+  "comportamento_referencia": "Nenhuma versão de configuração é criada; o comportamento é o do S01.",
+  "requisitos": [
+    "RF-SYN-06",
+    "RNF-PRI-01"
+  ],
+  "regras": [
+    "RN-V3-01",
+    "RN-V3-02",
+    "RN-V3-03",
+    "RN-DT-07"
+  ],
+  "acoes": [
+    {
+      "t_ms": 1000,
+      "ocupante": "idoso",
+      "acao": "ANDAR",
+      "ate": [
+        6.0,
+        2.6
+      ]
+    },
+    {
+      "t_ms": 6000,
+      "ocupante": "idoso",
+      "acao": "LER"
+    },
+    {
+      "t_ms": 60000,
+      "ocupante": "app",
+      "acao": "APP_RECUSAR",
+      "sugestoes": [
+        "SUG-sala-20-23"
+      ]
+    }
+  ]
+}

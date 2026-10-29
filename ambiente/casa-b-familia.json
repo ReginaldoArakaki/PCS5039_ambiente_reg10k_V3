@@ -1,0 +1,1243 @@
+{
+  "id": "CASA-B-FAMILIA",
+  "descricao": "Casa B (v3dt) com a família da v1dt.1: morador, moradora, criança, idoso e o Rex. Quarto do casal, quarto 2 da criança, quarto 3 do idoso (v3dt.1)",
+  "passo_ms": 100,
+  "comodos": [
+    {
+      "id": "sala",
+      "nome": "Sala",
+      "x0": 3.5,
+      "y0": 0.0,
+      "largura_m": 5.0,
+      "profundidade_m": 4.0,
+      "zonas_cegas": [
+        {
+          "id": "Z1",
+          "x0": 7.5,
+          "y0": 0.0,
+          "x1": 8.5,
+          "y1": 2.0
+        }
+      ],
+      "sp": "SP-01",
+      "atuador": "ATU-01",
+      "lampada": {
+        "id": "LAMP-01",
+        "x": 6.0,
+        "y": 2.0
+      },
+      "interruptor": {
+        "id": "INT-01",
+        "x": 5.1,
+        "y": 0.0
+      },
+      "controle": {}
+    },
+    {
+      "id": "cozinha",
+      "nome": "Cozinha",
+      "x0": 8.5,
+      "y0": 0.0,
+      "largura_m": 3.5,
+      "profundidade_m": 4.0,
+      "zonas_cegas": [],
+      "sp": "SP-02",
+      "atuador": "ATU-02",
+      "lampada": {
+        "id": "LAMP-02",
+        "x": 10.25,
+        "y": 2.0
+      },
+      "interruptor": {
+        "id": "INT-02",
+        "x": 8.5,
+        "y": 2.2
+      },
+      "controle": {}
+    },
+    {
+      "id": "quarto",
+      "nome": "Quarto",
+      "x0": 3.5,
+      "y0": 4.0,
+      "largura_m": 5.0,
+      "profundidade_m": 3.5,
+      "zonas_cegas": [],
+      "sp": "SP-03",
+      "atuador": "ATU-03",
+      "lampada": {
+        "id": "LAMP-03",
+        "x": 6.0,
+        "y": 5.75
+      },
+      "interruptor": {
+        "id": "INT-03",
+        "x": 5.7,
+        "y": 4.0
+      },
+      "controle": {}
+    },
+    {
+      "id": "banheiro",
+      "nome": "Banheiro",
+      "x0": 8.5,
+      "y0": 4.0,
+      "largura_m": 3.5,
+      "profundidade_m": 3.5,
+      "zonas_cegas": [],
+      "sp": "SP-04",
+      "atuador": "ATU-04",
+      "lampada": {
+        "id": "LAMP-04",
+        "x": 10.25,
+        "y": 5.75
+      },
+      "interruptor": {
+        "id": "INT-04",
+        "x": 8.5,
+        "y": 6.4
+      },
+      "controle": {
+        "t_apagamento_ms": 300000
+      }
+    },
+    {
+      "id": "quartodois",
+      "nome": "Quarto 2",
+      "x0": 0.0,
+      "y0": 0.0,
+      "largura_m": 3.5,
+      "profundidade_m": 4.0,
+      "zonas_cegas": [],
+      "sp": "SP-05",
+      "atuador": "ATU-05",
+      "lampada": {
+        "id": "LAMP-05",
+        "x": 1.75,
+        "y": 2.0
+      },
+      "interruptor": {
+        "id": "INT-05",
+        "x": 3.5,
+        "y": 1.2
+      },
+      "controle": {}
+    },
+    {
+      "id": "quartotres",
+      "nome": "Quarto 3",
+      "x0": 0.0,
+      "y0": 4.0,
+      "largura_m": 3.5,
+      "profundidade_m": 3.5,
+      "zonas_cegas": [],
+      "sp": "SP-06",
+      "atuador": "ATU-06",
+      "lampada": {
+        "id": "LAMP-06",
+        "x": 1.75,
+        "y": 5.75
+      },
+      "interruptor": {
+        "id": "INT-06",
+        "x": 3.5,
+        "y": 4.9
+      },
+      "controle": {}
+    },
+    {
+      "id": "servico",
+      "nome": "Área de serviço",
+      "x0": 12.0,
+      "y0": 0.0,
+      "largura_m": 2.5,
+      "profundidade_m": 4.0,
+      "zonas_cegas": [],
+      "sp": "SP-07",
+      "atuador": "ATU-07",
+      "lampada": {
+        "id": "LAMP-07",
+        "x": 13.25,
+        "y": 2.0
+      },
+      "interruptor": {
+        "id": "INT-07",
+        "x": 12.0,
+        "y": 1.2
+      },
+      "controle": {}
+    }
+  ],
+  "passagens": [
+    {
+      "id": "PORTA-01",
+      "tipo": "EXTERNA",
+      "comodos": [
+        "sala"
+      ],
+      "sa": "SA-01",
+      "x_inicio": 4.0,
+      "x_fim": 4.9,
+      "y": 0.0,
+      "pontos": {
+        "sala": [
+          4.45,
+          0.4
+        ]
+      },
+      "alvo": {
+        "sala": [
+          4.45,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "VAO-01",
+      "tipo": "INTERNA",
+      "comodos": [
+        "sala",
+        "cozinha"
+      ],
+      "sa": "SA-02",
+      "x": 8.5,
+      "y_inicio": 2.6,
+      "y_fim": 3.5,
+      "pontos": {
+        "sala": [
+          8.1,
+          3.05
+        ],
+        "cozinha": [
+          8.9,
+          3.05
+        ]
+      },
+      "alvo": {
+        "sala": [
+          7.3,
+          3.0
+        ],
+        "cozinha": [
+          9.7,
+          3.0
+        ]
+      }
+    },
+    {
+      "id": "PORTA-02",
+      "tipo": "INTERNA",
+      "comodos": [
+        "sala",
+        "quarto"
+      ],
+      "sa": "SA-03",
+      "x_inicio": 4.5,
+      "x_fim": 5.4,
+      "y": 4.0,
+      "pontos": {
+        "sala": [
+          4.95,
+          3.6
+        ],
+        "quarto": [
+          4.95,
+          4.4
+        ]
+      },
+      "alvo": {
+        "sala": [
+          5.0,
+          3.0
+        ],
+        "quarto": [
+          5.0,
+          5.2
+        ]
+      }
+    },
+    {
+      "id": "PORTA-03",
+      "tipo": "INTERNA",
+      "comodos": [
+        "quarto",
+        "banheiro"
+      ],
+      "sa": "SA-04",
+      "x": 8.5,
+      "y_inicio": 5.2,
+      "y_fim": 6.1,
+      "pontos": {
+        "quarto": [
+          8.1,
+          5.65
+        ],
+        "banheiro": [
+          8.9,
+          5.65
+        ]
+      },
+      "alvo": {
+        "quarto": [
+          7.5,
+          5.6
+        ],
+        "banheiro": [
+          9.7,
+          5.6
+        ]
+      }
+    },
+    {
+      "id": "PORTA-04",
+      "tipo": "INTERNA",
+      "comodos": [
+        "cozinha",
+        "servico"
+      ],
+      "sa": "SA-05",
+      "x": 12.0,
+      "y_inicio": 1.5,
+      "y_fim": 2.4,
+      "pontos": {
+        "cozinha": [
+          11.6,
+          1.95
+        ],
+        "servico": [
+          12.4,
+          1.95
+        ]
+      },
+      "alvo": {
+        "cozinha": [
+          11.0,
+          2.0
+        ],
+        "servico": [
+          13.2,
+          2.0
+        ]
+      }
+    },
+    {
+      "id": "PORTA-05",
+      "tipo": "INTERNA",
+      "comodos": [
+        "sala",
+        "quartodois"
+      ],
+      "sa": "SA-06",
+      "x": 3.5,
+      "y_inicio": 1.5,
+      "y_fim": 2.4,
+      "pontos": {
+        "sala": [
+          3.9,
+          1.95
+        ],
+        "quartodois": [
+          3.1,
+          1.95
+        ]
+      },
+      "alvo": {
+        "sala": [
+          4.6,
+          2.0
+        ],
+        "quartodois": [
+          1.8,
+          2.0
+        ]
+      }
+    },
+    {
+      "id": "PORTA-06",
+      "tipo": "INTERNA",
+      "comodos": [
+        "quarto",
+        "quartotres"
+      ],
+      "sa": "SA-07",
+      "x": 3.5,
+      "y_inicio": 5.2,
+      "y_fim": 6.1,
+      "pontos": {
+        "quarto": [
+          3.9,
+          5.65
+        ],
+        "quartotres": [
+          3.1,
+          5.65
+        ]
+      },
+      "alvo": {
+        "quarto": [
+          4.6,
+          5.6
+        ],
+        "quartotres": [
+          1.8,
+          5.6
+        ]
+      }
+    }
+  ],
+  "ocupantes": [
+    {
+      "id": "morador",
+      "tipo": "PESSOA",
+      "nome": "Morador",
+      "perfil": "ADULTO"
+    },
+    {
+      "id": "moradora",
+      "tipo": "PESSOA",
+      "nome": "Moradora",
+      "perfil": "ADULTO"
+    },
+    {
+      "id": "crianca",
+      "tipo": "PESSOA",
+      "nome": "Criança",
+      "perfil": "CRIANCA"
+    },
+    {
+      "id": "idoso",
+      "tipo": "PESSOA",
+      "nome": "Idoso",
+      "perfil": "IDOSO"
+    },
+    {
+      "id": "rex",
+      "tipo": "CACHORRO",
+      "nome": "Rex",
+      "porte": "GRANDE"
+    }
+  ],
+  "dispositivos": {
+    "SA-01": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe no batente da porta externa (sala); sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SP-01": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR no canto nordeste, aponta para sudoeste",
+      "x": 8.5,
+      "y": 4.0,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "ATU-01": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-01": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada com sensor de efeito (fotodiodo)",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-01": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor ao lado da porta",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "SA-02": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe no vão entre sala e cozinha; sem direção (A14)",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SP-02": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR no canto sudeste da cozinha, aponta para noroeste",
+      "x": 12.0,
+      "y": 0.0,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "ATU-02": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-02": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-02": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "SP-03": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR do quarto, canto noroeste",
+      "x": 3.5,
+      "y": 7.5,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "SP-04": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR do banheiro, canto nordeste",
+      "x": 12.0,
+      "y": 7.5,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "ATU-03": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-03": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-03": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "ATU-04": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-04": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-04": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "SA-03": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe da porta sala ↔ quarto; sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SA-04": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe da porta quarto ↔ banheiro; sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SP-05": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR do quarto 2, canto sudoeste",
+      "x": 0.0,
+      "y": 0.0,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "SP-06": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR do quarto 3, canto noroeste",
+      "x": 0.0,
+      "y": 7.5,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "SP-07": {
+      "tipo": "SENSOR_PRESENCA_PIR",
+      "descricao": "PIR da área de serviço, canto sudeste",
+      "x": 14.5,
+      "y": 0.0,
+      "alcance_m": 6.5,
+      "abertura_graus": 90,
+      "ideal": {
+        "p_movimento": 1.0,
+        "p_parado": 0.0,
+        "p_microgesto": 0.0,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          500
+        ],
+        "falso_disparo_por_hora": 0,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      },
+      "realista": {
+        "p_movimento": 0.95,
+        "p_parado": 0.01,
+        "p_microgesto": 0.3,
+        "retencao_ms": 5000,
+        "latencia_ms": [
+          500,
+          1500
+        ],
+        "falso_disparo_por_hora": 0.1667,
+        "heartbeat_ms": 10000,
+        "fator_bateria_baixa": 0.6,
+        "fator_cachorro": 1.0
+      }
+    },
+    "ATU-05": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-05": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-05": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "ATU-06": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-06": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-06": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "ATU-07": {
+      "tipo": "ATUADOR",
+      "descricao": "Relé da lâmpada da cozinha",
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          300
+        ]
+      }
+    },
+    "LAMP-07": {
+      "tipo": "LAMPADA",
+      "descricao": "Lâmpada da cozinha com sensor de efeito",
+      "capacidade": "EFEITO_OBSERVADO",
+      "ideal": {
+        "latencia_ms": [
+          200,
+          200
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          200,
+          600
+        ]
+      }
+    },
+    "INT-07": {
+      "tipo": "INTERRUPTOR",
+      "descricao": "Interruptor da cozinha, ao lado do vão",
+      "ideal": {
+        "latencia_ms": [
+          50,
+          50
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          100
+        ]
+      }
+    },
+    "SA-05": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe da porta cozinha ↔ área de serviço; sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SA-06": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe da porta sala ↔ quarto 2; sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    },
+    "SA-07": {
+      "tipo": "SENSOR_PASSAGEM",
+      "descricao": "Feixe da porta quarto ↔ quarto 3; sem direção",
+      "ideal": {
+        "p_deteccao": 1.0,
+        "p_deteccao_rapida": 1.0,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          50
+        ],
+        "espurio_por_hora": 0
+      },
+      "realista": {
+        "p_deteccao": 0.98,
+        "p_deteccao_rapida": 0.85,
+        "rearme_ms": 2000,
+        "latencia_ms": [
+          50,
+          150
+        ],
+        "espurio_por_hora": 0.25
+      }
+    }
+  },
+  "plataforma": {
+    "descricao": "v0dt: canal hub ↔ plataforma, DTReg10k-R, comandos remotos, configuração versionada e app",
+    "canal": {
+      "ideal": {
+        "latencia_ms": [
+          100,
+          100
+        ],
+        "p_perda": 0,
+        "p_duplicacao": 0
+      },
+      "realista": {
+        "latencia_ms": [
+          50,
+          400
+        ],
+        "p_perda": 0.01,
+        "p_duplicacao": 0.005
+      }
+    },
+    "app": {
+      "ideal": {
+        "latencia_ms": [
+          150,
+          150
+        ]
+      },
+      "realista": {
+        "latencia_ms": [
+          100,
+          400
+        ]
+      }
+    },
+    "resumo_ms": 30000,
+    "limite_atualidade_ms": 60000,
+    "validade_comando_ms": 30000,
+    "prazo_resultado_ms": 10000,
+    "reenvio_ms": 3000,
+    "reconexao_min_ms": 1000,
+    "reconexao_max_ms": 30000,
+    "reconexao_jitter": {
+      "ideal": 0,
+      "realista": 0.2
+    },
+    "t_apagamento_limites_ms": [
+      30000,
+      1800000
+    ]
+  },
+  "controle": {
+    "t_apagamento_ms": 60000,
+    "t_manual_ms": 900000,
+    "t_heartbeat_falha_ms": 30000,
+    "t_confirmacao_ms": 10000,
+    "t_retentativa_ms": 2000,
+    "validade_evidencia_ms": 10000
+  }
+}
