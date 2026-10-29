@@ -1,0 +1,80 @@
+{
+  "id": "G03-PORTA-06",
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "titulo": "Espia quarto 3 pela PORTA-06 sem entrar",
+  "tipo": "FALSO_POSITIVO",
+  "modo": "IDEAL",
+  "duracao_ms": 209000,
+  "descricao": "O morador vai até a PORTA-06, olha quarto 3 sem entrar e volta.",
+  "comportamento_ideal": "Quarto 3 não acende: ninguém entrou.",
+  "comportamento_referencia": "Limitação conhecida (RN-V1-01): o SA da passagem vai aos dois cômodos e quarto 3 acende.",
+  "requisitos": [
+    "RN09",
+    "RF-OPR-01"
+  ],
+  "regras": [
+    "RN-V1-01"
+  ],
+  "familia": "F3",
+  "gerado": true,
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 8000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 20000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        3.9,
+        5.65
+      ]
+    },
+    {
+      "t_ms": 30000,
+      "ocupante": "morador",
+      "acao": "ESPIAR",
+      "comodo": "quartotres"
+    },
+    {
+      "t_ms": 35000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 60000
+    },
+    {
+      "t_ms": 97000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "sala"
+    },
+    {
+      "t_ms": 109000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        4.45,
+        0.4
+      ]
+    },
+    {
+      "t_ms": 117000,
+      "ocupante": "morador",
+      "acao": "SAIR"
+    }
+  ],
+  "falhas": []
+}

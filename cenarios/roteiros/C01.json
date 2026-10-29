@@ -1,0 +1,76 @@
+{
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "modo": "IDEAL",
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "falhas": [],
+  "id": "C01",
+  "titulo": "Travessia até o quarto 3",
+  "tipo": "NORMAL",
+  "duracao_ms": 480000,
+  "descricao": "O morador entra e vai ao quarto 3 passando pela sala e pelo quarto (duas passagens internas); fica 1 min e volta para a rua.",
+  "comportamento_ideal": "Cada cômodo acende ao ser atravessado e apaga depois.",
+  "comportamento_referencia": "Acende em até 1 s a cada passagem; cada cômodo apaga 60 s depois da última evidência.",
+  "requisitos": [
+    "RF-OPR-01",
+    "RNF-DES-03"
+  ],
+  "regras": [
+    "RN-I0-02",
+    "RN-V2-02"
+  ],
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 9000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 21000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quartotres"
+    },
+    {
+      "t_ms": 33000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 60000
+    },
+    {
+      "t_ms": 95000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 107000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "sala"
+    },
+    {
+      "t_ms": 119000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        4.45,
+        1.0
+      ]
+    },
+    {
+      "t_ms": 127000,
+      "ocupante": "morador",
+      "acao": "SAIR"
+    }
+  ]
+}

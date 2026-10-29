@@ -1,0 +1,94 @@
+{
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "modo": "IDEAL",
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "falhas": [],
+  "id": "C02",
+  "titulo": "Esperando a máquina na área de serviço",
+  "tipo": "FALSO_NEGATIVO",
+  "duracao_ms": 720000,
+  "descricao": "O morador vai à área de serviço (sala → cozinha → área), fica parado 6 min esperando a máquina de lavar, mexe-se, volta e sai.",
+  "comportamento_ideal": "A luz da área de serviço fica acesa enquanto ele espera.",
+  "comportamento_referencia": "Limitação conhecida (como o FN01): apaga 60 s depois do último movimento; acende de novo quando ele se mexe.",
+  "requisitos": [
+    "RF-OPR-01",
+    "CF05"
+  ],
+  "regras": [
+    "RN-I0-03"
+  ],
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 9000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "cozinha"
+    },
+    {
+      "t_ms": 21000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "servico"
+    },
+    {
+      "t_ms": 33000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        13.5,
+        3.0
+      ]
+    },
+    {
+      "t_ms": 40000,
+      "ocupante": "morador",
+      "acao": "PARADO"
+    },
+    {
+      "t_ms": 400000,
+      "ocupante": "morador",
+      "acao": "GESTO"
+    },
+    {
+      "t_ms": 402000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 20000
+    },
+    {
+      "t_ms": 425000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "cozinha"
+    },
+    {
+      "t_ms": 437000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "sala"
+    },
+    {
+      "t_ms": 449000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        4.45,
+        1.0
+      ]
+    },
+    {
+      "t_ms": 457000,
+      "ocupante": "morador",
+      "acao": "SAIR"
+    }
+  ]
+}

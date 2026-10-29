@@ -1,0 +1,9 @@
+{
+  "nome": "V3",
+  "titulo": "Casa B: sete cômodos, com gêmeo digital e espelho",
+  "descricao": "Versão V3 da automação: a Casa B, com 7 cômodos (a Casa A mais quarto 2, quarto 3 e área de serviço), na v3dt; o aprendizado do gêmeo entra na v3dt.1",
+  "ambientes": [
+    "casa-b"
+  ],
+  "nucleo_tag": "nucleo-v1.3"
+}

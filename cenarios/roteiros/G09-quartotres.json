@@ -1,0 +1,96 @@
+{
+  "id": "G09-quartotres",
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "titulo": "Dorme em quarto 3 e acorda",
+  "tipo": "FALSO_NEGATIVO",
+  "modo": "IDEAL",
+  "duracao_ms": 1069000,
+  "descricao": "O morador vai até quarto 3, dorme 10 min, acorda e sai.",
+  "comportamento_ideal": "A luz apaga com ele dormindo e acende quando ele acorda (PI-01).",
+  "comportamento_referencia": "Apaga T_apagamento (60 s) depois de ele adormecer; acende no primeiro movimento.",
+  "requisitos": [
+    "RF-OPR-01",
+    "CF05"
+  ],
+  "regras": [
+    "RN-I0-03"
+  ],
+  "familia": "F9",
+  "gerado": true,
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 8000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 20000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quartotres"
+    },
+    {
+      "t_ms": 32000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        1.75,
+        5.75
+      ]
+    },
+    {
+      "t_ms": 40000,
+      "ocupante": "morador",
+      "acao": "DORMIR"
+    },
+    {
+      "t_ms": 640000,
+      "ocupante": "morador",
+      "acao": "ACORDAR"
+    },
+    {
+      "t_ms": 643000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 30000
+    },
+    {
+      "t_ms": 675000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 687000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "sala"
+    },
+    {
+      "t_ms": 699000,
+      "ocupante": "morador",
+      "acao": "ANDAR",
+      "ate": [
+        4.45,
+        0.4
+      ]
+    },
+    {
+      "t_ms": 707000,
+      "ocupante": "morador",
+      "acao": "SAIR"
+    }
+  ],
+  "falhas": []
+}

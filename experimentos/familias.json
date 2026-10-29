@@ -1,0 +1,91 @@
+{
+  "descricao": {
+    "F1": "Uso normal: entrar, sair, permanecer, interruptor",
+    "F2": "Permanência parada (falso negativo)",
+    "F3": "Passagem sem entrar e disparos espúrios (falso positivo)",
+    "F4": "Falha de dispositivo",
+    "F5": "Queda de rede, plataforma ou hub",
+    "F6": "Comando remoto e preferência",
+    "F7": "Espelho e consulta pelo app"
+  },
+  "familias": {
+    "F1": [
+      "C01",
+      "G01-banheiro",
+      "G01-cozinha",
+      "G01-quarto",
+      "G01-quartodois",
+      "G01-quartotres",
+      "G01-sala",
+      "G01-servico"
+    ],
+    "F2": [
+      "C02",
+      "G02-banheiro",
+      "G02-cozinha",
+      "G02-quarto",
+      "G02-quartodois",
+      "G02-quartotres",
+      "G02-sala",
+      "G02-servico"
+    ],
+    "F3": [
+      "G03-PORTA-02",
+      "G03-PORTA-03",
+      "G03-PORTA-04",
+      "G03-PORTA-05",
+      "G03-PORTA-06",
+      "G03-VAO-01"
+    ],
+    "F4": [
+      "G04-banheiro",
+      "G04-cozinha",
+      "G04-quarto",
+      "G04-quartodois",
+      "G04-quartotres",
+      "G04-sala",
+      "G04-servico"
+    ],
+    "F5": [
+      "C04",
+      "G05-casa"
+    ],
+    "F6": [
+      "G06-banheiro",
+      "G06-cozinha",
+      "G06-quarto",
+      "G06-quartodois",
+      "G06-quartotres",
+      "G06-sala",
+      "G06-servico"
+    ],
+    "F7": [
+      "G07-banheiro",
+      "G07-cozinha",
+      "G07-quarto",
+      "G07-quartodois",
+      "G07-quartotres",
+      "G07-sala",
+      "G07-servico"
+    ],
+    "F8": [
+      "C03",
+      "G08-banheiro",
+      "G08-cozinha",
+      "G08-quarto",
+      "G08-quartodois",
+      "G08-quartotres",
+      "G08-sala",
+      "G08-servico"
+    ],
+    "F9": [
+      "G09-banheiro",
+      "G09-cozinha",
+      "G09-quarto",
+      "G09-quartodois",
+      "G09-quartotres",
+      "G09-sala",
+      "G09-servico"
+    ]
+  }
+}

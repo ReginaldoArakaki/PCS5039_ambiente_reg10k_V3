@@ -1,0 +1,67 @@
+{
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "modo": "IDEAL",
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "falhas": [],
+  "id": "C03",
+  "titulo": "Dois quartos ocupados, longe um do outro",
+  "tipo": "NORMAL",
+  "duracao_ms": 600000,
+  "descricao": "O morador vai ao quarto 3 e o Rex ao quarto 2; os dois andam pelos quartos; os outros cômodos ficam vazios.",
+  "comportamento_ideal": "Só os dois quartos ficam acesos; os cômodos de passagem apagam.",
+  "comportamento_referencia": "Os cômodos de passagem acendem pelo SA e apagam 60 s depois; os quartos ficam acesos.",
+  "requisitos": [
+    "RF-OPR-01",
+    "RN34"
+  ],
+  "regras": [
+    "RN-V1-02",
+    "RN-I0-03"
+  ],
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 7000,
+      "ocupante": "rex",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 10000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 12000,
+      "ocupante": "rex",
+      "acao": "MUDAR_COMODO",
+      "para": "quartodois"
+    },
+    {
+      "t_ms": 22000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quartotres"
+    },
+    {
+      "t_ms": 26000,
+      "ocupante": "rex",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 574000
+    },
+    {
+      "t_ms": 36000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 564000
+    }
+  ]
+}

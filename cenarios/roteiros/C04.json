@@ -1,0 +1,82 @@
+{
+  "versao": "v3dt",
+  "ambiente": "casa-b",
+  "modo": "IDEAL",
+  "estado_inicial": {
+    "ocupantes_na_sala": [],
+    "luz": "APAGADA"
+  },
+  "falhas": [
+    {
+      "t_ms": 90000,
+      "tipo": "CANAL_DESCONECTA",
+      "duracao_ms": 600000
+    }
+  ],
+  "id": "C04",
+  "titulo": "Desconexão com a casa ocupada nas pontas",
+  "tipo": "GEMEO_DIGITAL",
+  "duracao_ms": 780000,
+  "descricao": "O morador está no quarto 3 e o Rex na área de serviço quando o canal cai por 10 min.",
+  "comportamento_ideal": "A automação local segue; o gêmeo de cada cômodo se declara desatualizado e reconcilia ao voltar.",
+  "comportamento_referencia": "Fila persistente, um estado por cômodo, reconciliação em até 5 s.",
+  "requisitos": [
+    "RF-SYN-03",
+    "RF-SYN-04",
+    "RNF-CON-01",
+    "CF06"
+  ],
+  "regras": [
+    "RN-DT-03",
+    "RN-DT-04",
+    "RN-V1-04"
+  ],
+  "acoes": [
+    {
+      "t_ms": 5000,
+      "ocupante": "morador",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 7000,
+      "ocupante": "rex",
+      "acao": "ENTRAR"
+    },
+    {
+      "t_ms": 10000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quarto"
+    },
+    {
+      "t_ms": 12000,
+      "ocupante": "rex",
+      "acao": "MUDAR_COMODO",
+      "para": "cozinha"
+    },
+    {
+      "t_ms": 22000,
+      "ocupante": "morador",
+      "acao": "MUDAR_COMODO",
+      "para": "quartotres"
+    },
+    {
+      "t_ms": 24000,
+      "ocupante": "rex",
+      "acao": "MUDAR_COMODO",
+      "para": "servico"
+    },
+    {
+      "t_ms": 36000,
+      "ocupante": "morador",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 744000
+    },
+    {
+      "t_ms": 38000,
+      "ocupante": "rex",
+      "acao": "ANDAR_ALEATORIO",
+      "duracao_ms": 742000
+    }
+  ]
+}
