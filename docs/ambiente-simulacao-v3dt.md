@@ -1,6 +1,6 @@
 # Ambiente de simulação Reg10k — V3: Casa B (7 cômodos) e aprendizado do gêmeo
 
-**Versão do documento:** v01 | **Data:** 29/10/2026 | **Situação:** plano para aprovação
+**Versão do documento:** v02 | **Data:** 29/10/2026 | **Situação:** plano aprovado; v3dt entregue (§11)
 **Responsável:** Reginaldo Arakaki (EPUSP)
 **Disciplina:** PCS5039 — Engenharia de Software Orientada a IoT (EPUSP)
 **Linha de pesquisa:** Laboratório de Digital Twin de Arquitetura de Sistemas de Software (EPUSP) e GLIP USP
@@ -9,6 +9,7 @@
 | Versão | Data | Mudança |
 |---|---|---|
 | v01 | 29/10/2026 | Plano para aprovação, com a rodada de dúvidas (§10) |
+| v02 | 29/10/2026 | Propostas DQ3-01 a DQ3-10 aceitas; entrega da v3dt (§11) e comparação V0–V3 no mesmo núcleo (§12) |
 
 ---
 
@@ -129,6 +130,64 @@ O aprendizado com sugestão e aceite não está escrito na V1 nem na V2/V3: só 
 | DQ3-09 | Moradores | v3dt com morador e Rex; v3dt.1 com a família | Assim: a v3dt fica comparável com V0–V2, e a rotina da família dá o que aprender |
 | DQ3-10 | Documentos da plataforma | PD para a V1 e V2/V3 v06 na v3dt.1; ou depois | Na v3dt.1, junto com a entrega |
 
-Sem objeção, as propostas valem.
+Sem objeção, as propostas valem. **Aceitas em 29/10/2026.**
 
 **Duração de referência:** v3dt, 1 dia; v3dt.1, 2 a 3 dias (núcleo `nucleo-v1.4` para o relógio e o aprendizado).
+
+## 11. Entrega da v3dt
+
+| Item | Situação |
+|---|---|
+| Planta | `ambiente/casa-b.json`: 7 cômodos e 7 passagens (SA-01 a SA-07), como no §2. Ids de cômodo `quartodois`, `quartotres` e `servico`, porque o esquema só aceita letras |
+| Cenários G* | 56, gerados pelo núcleo: F1=7, F2=7, F3=6, F4=7, F5=1, F6=7, F7=7, F8=7, F9=7 |
+| Cenários próprios | C01 travessia até o quarto 3 (F1); C02 área de serviço com a máquina (F2); C03 dois quartos ocupados longe um do outro (F8); C04 desconexão com a casa ocupada nas pontas (F5). As asserções de entrada usam janela relativa (`apos`) |
+| Referência | Aprovada em todos os 60 cenários; invariantes respeitadas; execuções determinísticas |
+| Regressão | 120 assinaturas em `dados/assinaturas-V3.json` |
+| Dados | `dados/experimentos-V3-20261029.csv`: 3.600 execuções (60 cenários, referência e grupo_exemplo, 30 sementes), com manifesto |
+| Página | 7 cômodos na animação, no gêmeo e na tabela por cômodo; verificada no navegador, sem erros |
+
+**Desvio do plano.** O C03 previa "três quartos ocupados à noite", mas a v3dt tem só o morador e o Rex (DQ3-09). Ficou "dois quartos ocupados, longe um do outro". Os três quartos com a família entram na v3dt.1.
+
+**Correção durante a entrega.** Na primeira rodada, a zona cega Z1 da sala não foi deslocada com a casa e ficou na frente da porta externa. A referência passou mesmo assim, porque acende pelo SA; o grupo_exemplo, que só acende pelo SP, caiu a 0% na F1, com atraso de 5 s. Com a Z1 no lugar (x de 7,5 a 8,5, junto ao vão para a cozinha, como na Casa A), os dados foram refeitos; o CSV acima é o corrigido. Lição para o roteiro: ao deslocar uma planta, deslocar também as zonas cegas, que ficam em coordenadas absolutas.
+
+## 12. Comparação V0–V3 no mesmo núcleo (CP-V3-01)
+
+As quatro versões rodaram no `nucleo-v1.3` (7077d3c), com 30 sementes. V0 e V2 subiram para esse núcleo nos ajustes **v0dtc** e **v2dtb**, que acrescentam as famílias F8 e F9; a regressão manteve todas as assinaturas anteriores (V0: 76 iguais; V2: 58 iguais). Dados: V0 `experimentos-V0-20261029-v13.csv`, V1 `experimentos-V1-20261029-v1dt1.csv`, V2 `experimentos-V2-20261029-v13.csv`, V3 `experimentos-V3-20261029.csv`.
+
+Requisitos atendidos (% das execuções), só cenários G*:
+
+| Família | Controlador | V0 (1) | V1 (2) | V2 (4) | V3 (7) |
+|---|---|---|---|---|---|
+| F1 entrada e saída | referência | 100 | 100 | 100 | 100 |
+| | grupo_exemplo | 100 | 65 | 43 | 29 |
+| F2 parado | referência | 100 | 100 | 100 | 100 |
+| | grupo_exemplo | 100 | 50 | 25 | 29 |
+| F3 passagem interna | referência | — | 100 | 100 | 100 |
+| | grupo_exemplo | — | 100 | 67 | 50 |
+| F9 dormindo | referência | 100 | 100 | 100 | 100 |
+| | grupo_exemplo | 100 | 50 | 25 | 29 |
+| F4–F8 | ambos | 100 | 100 | 100 | 100 |
+
+Medidas por cômodo (referência):
+
+| Medida | V0 | V1 | V2 | V3 |
+|---|---|---|---|---|
+| Desperdício por cômodo, F1 (s) | 60,7 | 58,1 | 59,1 | 35,2 |
+| Ocupação desconhecida por cômodo, F2 (s) | 5,1 | 20,6 | 79,8 | 73,2 |
+| Espelho fiel, F7 (%) | 98,3 | 80,0 | 66,1 | 69,7 |
+| Gêmeo não atual por cômodo, F5 (s) | 601,2 | 601,2 | 601,2 | 601,2 |
+
+Leitura:
+
+- **A referência não perde requisito com o porte**: 100% em todas as famílias, de 1 a 7 cômodos.
+- **O grupo_exemplo piora com as passagens internas.** Ele só acende pelo SP. Nos cômodos que se alcançam por passagem interna, o atraso da PIR estoura o limite de 1 s. De 1 para 4 cômodos a queda é de 100 para 25–43%. Na Casa B fica entre 29 e 50%, porque a profundidade nova (quarto 3 a duas passagens) repete o mesmo efeito em mais cômodos, sem um mecanismo novo.
+- **O desperdício por cômodo cai na Casa B** (35 s contra cerca de 60 s). Isso é efeito da normalização, não ganho do controlador: o desperdício total quase não cresce de V2 para V3 (236 → 246 s), porque cada cenário G* usa só o cômodo-alvo e o caminho até ele, e a divisão é por 7. Para comparar portes, use a medida por cômodo **ocupado** (a fazer no comparador).
+- **O espelho fica entre 66 e 70% a partir de 4 cômodos**: o que pesa é a composição dos episódios (cômodos sem evidência, em que o gêmeo não afirma), não o número de cômodos.
+- **A desconexão custa o mesmo por cômodo** (601 s): cada cômodo fica desatualizado durante a queda, e a reconciliação não cresce com o porte (100 ms).
+
+Resultados de simulação, não de medição (P7).
+
+## 13. Próximos passos
+
+1. Tags: `v3dt` neste repositório, `v0dtc` na V0 e `v2dtb` na V2 (comandos na conversa).
+2. v3dt.1: aprendizado do gêmeo, no núcleo `nucleo-v1.4` (§3).

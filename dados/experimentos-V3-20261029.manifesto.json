@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-29T18:49:01",
-  "comando": "/home/claude/v3-local/nucleo/experimentos/__main__.py --sementes 30 --controladores referencia alunos.grupo_exemplo --processos 8",
+  "gerado_em": "2026-10-29T19:13:07",
+  "comando": "/home/claude/v3-local/nucleo/experimentos/__main__.py --sementes 30 --controladores referencia alunos.grupo_exemplo --processos 4",
   "versao": {
     "nome": "V3",
     "titulo": "Casa B: sete cômodos, com gêmeo digital e espelho",
@@ -17,8 +17,8 @@
     "descricao_git": "nucleo-v1.3"
   },
   "repositorio_versao": {
-    "commit": "c9357593f04c31120087d1ec2345abe41a14bc85",
-    "descricao_git": "c935759"
+    "commit": "6b00f0e07e6ddec2e02c372d9a478d32192de28c",
+    "descricao_git": "6b00f0e-dirty"
   },
   "python": "3.13.16",
   "sementes": [
@@ -174,7 +174,7 @@
   ],
   "csv": {
     "arquivo": "experimentos-V3-20261029.csv",
-    "sha256": "136e8db12c1158622541b696c56099da832a3297cf69b7a6ce04c22b175e706a",
+    "sha256": "17037a1abb52c4329f6929c04adc43b80c57fffdfe70733ab5ece1482b3b9bf5",
     "colunas": [
       "versao",
       "nucleo",
@@ -344,7 +344,7 @@
     "cenarios/esperado/G09-sala.json": "53ebb33c2d2b313750f2071629beaae399e0d9b7fb930ab9956e02283f995cc7",
     "cenarios/roteiros/G09-servico.json": "dafe11f4927c8b6a96b2b66b6d6fd53a836091cc7ab1556e1a784ecf2e6f4b7d",
     "cenarios/esperado/G09-servico.json": "9bfd8a68fd9609a5b645b6aa0b77b1aba199fb6e6f82c69db6c95b27d21f7e16",
-    "ambiente/casa-b.json": "5f0d2a72972a2a424bd9dbc79de47a03d454103a7b9b800e06415daccd0229e4"
+    "ambiente/casa-b.json": "6be02eddcac8b8f294e9a1f7ce7df315d6ff9aa8f766a6b079477d5cb7972a9f"
   },
   "ressalva": "Resultados de simulação, não de medição (P7): valem para o modelo e os parâmetros declarados."
 }
