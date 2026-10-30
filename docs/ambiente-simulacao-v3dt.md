@@ -1,6 +1,6 @@
 # Ambiente de simulação Reg10k — V3: Casa B (7 cômodos) e aprendizado do gêmeo
 
-**Versão do documento:** v03 | **Data:** 29/10/2026 | **Situação:** entregue: v3dt (§11 e §12) e v3dt.1 (§14 a §18)
+**Versão do documento:** v04 | **Data:** 29/10/2026 | **Situação:** entregue: v3dt (§11 e §12) e v3dt.1 (§14 a §18)
 **Responsável:** Reginaldo Arakaki (EPUSP)
 **Disciplina:** PCS5039 — Engenharia de Software Orientada a IoT (EPUSP)
 **Linha de pesquisa:** Laboratório de Digital Twin de Arquitetura de Sistemas de Software (EPUSP) e GLIP USP
@@ -11,6 +11,7 @@
 | v01 | 29/10/2026 | Plano para aprovação, com a rodada de dúvidas (§10) |
 | v02 | 29/10/2026 | Propostas DQ3-01 a DQ3-10 aceitas; entrega da v3dt (§11) e comparação V0–V3 no mesmo núcleo (§12) |
 | v03 | 29/10/2026 | Entrega da v3dt.1 (§14 a §18): núcleo `nucleo-v1.4`, cenários S01–S05, protocolo de 21 dias com 10 sementes, achados RS-10 a RS-13, ajustes ◆ |
+| v04 | 29/10/2026 | RS-11 (§16): política seletiva medida (sala, cozinha, quarto 3), substituindo a estimativa |
 
 ---
 
@@ -234,7 +235,7 @@ Resultados de simulação, não de medição (P7).
 ## 16. Leitura e achados
 
 - **O aprendizado resolve o dilema da E14 em parte.** O dilema era quem lê × quem dorme, sem hora do dia. Com hora do dia e perfil por cômodo, o gêmeo separa os dois casos onde eles acontecem em horas diferentes: sala à tarde e à noite, contra o quarto 3 às 21h.
-- **RS-11. Onde os dois casos se misturam na mesma hora, a sugestão cobra caro.** No quarto do casal às 22h, a moradora lê e o marido já dorme. O gêmeo vê reação ao escuro e sugere 5 min, bom para ela e ruim quando os dois adormecem: +195 s aceso com todos dormindo, por noite. É a decisão que o E15 entrega ao titular. Pelos números por cômodo, aceitar só as faixas da sala, da cozinha e do quarto 3 manteria cerca de 90% do ganho no escuro (1.219 de 1.355 s) sem esse custo. É uma estimativa pela soma dos cômodos, ainda não medida: `--politica comodos:sala,cozinha,quartotres`.
+- **RS-11. Onde os dois casos se misturam na mesma hora, a sugestão cobra caro.** No quarto do casal às 22h, a moradora lê e o marido já dorme. O gêmeo vê reação ao escuro e sugere 5 min, bom para ela e ruim quando os dois adormecem: +195 s aceso com todos dormindo, por noite. É a decisão que o E15 entrega ao titular. Aceitar só as faixas da sala, da cozinha e do quarto 3 (`--politica comodos:sala,cozinha,quartotres`, arquivos `dados/aprendizado-V3-20261029-escolhida*`) foi medido com o mesmo protocolo e as mesmas 10 sementes. Mantém 90% do ganho no escuro: −1.222 ± 40 s por dia (−71%), contra −1.355 ± 54 s aceitando tudo; a estimativa pela soma dos cômodos (1.219 s) se confirmou. Apagamentos com alguém acordado caem 164 ± 5 por dia (−72%). O custo com quem dorme desaparece e vira ganho: −29 ± 8 s aceso com todos dormindo (−16%), contra +165 ± 65 s aceitando tudo. O tempo aceso sem ninguém sobe +1.199 ± 70 s (+58%), pouco abaixo dos +1.331 s. As invariantes valem em todos os dias simulados.
 - **O custo do T longo é o desperdício.** Desperdício quer dizer luz acesa depois que o cômodo esvazia: +1.331 s por dia, quase todo na sala. O plano previa a troca; a medida a torna explícita para o artigo.
 - **RS-10. O sinal de "alguém dentro" exige movimento depois da passagem.** A criança entra no quarto 2 e deita em seguida. O único movimento visto acontece até 10 s depois da passagem, e o modelo o trata como "passou e saiu". Por isso o quarto 2 nunca recebeu a faixa curta, embora a criança durma lá todas as noites. Sem identificar ninguém, o gêmeo não distingue "entrou e deitou" de "passou". É uma limitação honesta do modelo, que vai para a discussão do E15 e para o refinamento RS-10 na V2/V3 v06.
 - **A sugestão converge e é estável.** Em 10 de 10 sementes, as mesmas faixas. A variação da rotina (±10 a ±30 min) não mudou o que o gêmeo aprende com 14 dias e o mínimo de 5 dias de evidência por hora.

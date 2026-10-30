@@ -1,0 +1,56 @@
+{
+  "gerado_em": "2026-10-29T23:17:52",
+  "comando": "/home/claude/pcs5039_ambiente_reg10k_v3/nucleo/experimentos/aprendizado.py --sementes 10 --processos 4 --politica comodos:sala,cozinha,quartotres --saida dados/aprendizado-V3-20261029-escolhida",
+  "protocolo": {
+    "treino_dias": 14,
+    "teste_dias": 7,
+    "sementes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bracos": [
+      "aceitar",
+      "recusar"
+    ],
+    "politica_de_aceite": "comodos:sala,cozinha,quartotres",
+    "controlador": "referencia",
+    "janela": "17:00 por 8 h",
+    "modo": "IDEAL"
+  },
+  "entradas": {
+    "experimentos/rotina-familia.json": "31d0af90a679b8515f1ba978e2862e5a538f867186a4ca9991fe335bc1c5b909",
+    "ambiente/casa-b-familia.json": "1e1776a97ea80b68339ba7965e769c8e45f1fdb73101bfb720f9f095455c69f2"
+  },
+  "versao": {
+    "nome": "V3",
+    "titulo": "Casa B: sete cômodos, com gêmeo digital e espelho",
+    "descricao": "Versão V3 da automação: a Casa B, com 7 cômodos (a Casa A mais quarto 2, quarto 3 e área de serviço), na v3dt; na v3dt.1, a família e o aprendizado do gêmeo com sugestões e aceite do titular",
+    "ambientes": [
+      "casa-b",
+      "casa-b-familia"
+    ],
+    "nucleo_tag": "nucleo-v1.4",
+    "nucleo": "nucleo-v1.4"
+  },
+  "nucleo": {
+    "nome": "nucleo-v1.4",
+    "commit": "e7f8123ee0613d8decfa9bde0f2ced67538e2c7f",
+    "descricao_git": "nucleo-v1.3-2-ge7f8123"
+  },
+  "repositorio_versao": {
+    "commit": "fc12849b396632466cb66bd953d785ee6e4c002d",
+    "descricao_git": "fc12849"
+  },
+  "dias_simulados": 280,
+  "duracao_s": 3671.4,
+  "invariantes_ok_em_todos_os_dias": true,
+  "ressalva": "Resultados de simulação, não de medição (P7): valem para o modelo, a rotina e os parâmetros declarados."
+}
