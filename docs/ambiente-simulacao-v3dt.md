@@ -1,6 +1,6 @@
 # Ambiente de simulação Reg10k — V3: Casa B (7 cômodos) e aprendizado do gêmeo
 
-**Versão do documento:** v02 | **Data:** 29/10/2026 | **Situação:** plano aprovado; v3dt entregue (§11)
+**Versão do documento:** v03 | **Data:** 29/10/2026 | **Situação:** entregue: v3dt (§11 e §12) e v3dt.1 (§14 a §18)
 **Responsável:** Reginaldo Arakaki (EPUSP)
 **Disciplina:** PCS5039 — Engenharia de Software Orientada a IoT (EPUSP)
 **Linha de pesquisa:** Laboratório de Digital Twin de Arquitetura de Sistemas de Software (EPUSP) e GLIP USP
@@ -10,6 +10,7 @@
 |---|---|---|
 | v01 | 29/10/2026 | Plano para aprovação, com a rodada de dúvidas (§10) |
 | v02 | 29/10/2026 | Propostas DQ3-01 a DQ3-10 aceitas; entrega da v3dt (§11) e comparação V0–V3 no mesmo núcleo (§12) |
+| v03 | 29/10/2026 | Entrega da v3dt.1 (§14 a §18): núcleo `nucleo-v1.4`, cenários S01–S05, protocolo de 21 dias com 10 sementes, achados RS-10 a RS-13, ajustes ◆ |
 
 ---
 
@@ -187,7 +188,78 @@ Leitura:
 
 Resultados de simulação, não de medição (P7).
 
-## 13. Próximos passos
+## 13. Próximos passos da v3dt (feitos)
 
-1. Tags: `v3dt` neste repositório, `v0dtc` na V0 e `v2dtb` na V2 (comandos na conversa).
-2. v3dt.1: aprendizado do gêmeo, no núcleo `nucleo-v1.4` (§3).
+1. Tags `v3dt`, `v0dtc` e `v2dtb`: criadas em 29/10/2026.
+2. v3dt.1: entregue (§14).
+
+## 14. Entrega da v3dt.1
+
+| Item | Situação |
+|---|---|
+| Núcleo `nucleo-v1.4` (commit `e7f8123`) | Relógio de parede (`hora_inicio`); faixas de T_apagamento no hub (`FAIXA_APLICADA`); sugestões e aceite na plataforma (`APP_ACEITAR`, `APP_RECUSAR`, versão de configuração com as sugestões de origem); modelo agregado do DTReg10k-R (`plataforma/aprendizado.py`); ação `LER` (◆, §17); **OR-17**; rotina diária e protocolo de semanas (`experimentos/rotina.py`, `experimentos/aprendizado.py`, `reg10k.py aprendizado`, opção `--politica` para o E15); schemas, página (hora do dia, sugestões no cartão do cenário), modelo (RN-V3-01 a RN-V3-03), UML (`classes-v3dt1`, `sequencia-S02`, casos de uso), E15, guia v07 |
+| Regressão | As 92 assinaturas do núcleo e as 120 da v3dt ficam iguais (CP-V3-02: sem aceite, nada muda). 279 testes, em Python 3.9 e 3.12, dos quais 20 novos; quatro deles fazem a OR-17 falhar quando deve (CP-V3-04) |
+| Ambiente | `casa-b-familia`: a Casa B com morador, moradora, criança, idoso e o Rex. Quarto do casal, quarto 2 da criança, quarto 3 do idoso |
+| Cenários do catálogo | S01 leitura na sala sem faixa; S02 sugestão aceita (sala das 20h às 23h com 5 min); S03 sugestão recusada; S04 quarto à noite com a faixa curta já aceita; S05 aceite com o canal fora (a versão espera a reconexão). Todos aprovados com a referência; catálogo sem problemas; página verificada no navegador, inclusive em iframe |
+| Rotina | `experimentos/rotina-familia.json`: das 17h à 1h, com variação por semente e passos eventuais. O idoso lê na sala; a criança brinca no quarto 2 e dorme por volta das 20h50; o casal janta, vê TV na sala e dorme por volta das 22h30; a moradora lê no quarto antes de dormir; o Rex dorme na área de serviço |
+| Protocolo (CP-V3-03) | 10 sementes × (14 dias de treino + 7 de teste em dois braços) = 280 dias simulados, 68 min em 2 processos. Invariantes respeitadas em **todos** os dias. Dados em `dados/aprendizado-V3-20261029*` com manifesto (núcleo `e7f8123`, versão `0f1bd45`) |
+
+## 15. Resultados do protocolo
+
+**O que o gêmeo sugeriu.** As 10 sementes chegaram às mesmas quatro sugestões, ao fim de 14 dias:
+
+| Cômodo | Faixa | T_apagamento | Evidência (semente 0) | Leitura |
+|---|---|---|---|---|
+| Sala | 17h–23h | 300 s | reação logo depois de quase todo apagamento com alguém dentro | O idoso lê à tarde; a família vê TV à noite |
+| Cozinha | 19h–21h | 300 s | idem | Jantar: gente sentada e acordada |
+| Quarto (casal) | 22h–23h | 300 s | 334 reações em 348 apagamentos | A moradora lê na cama antes de dormir |
+| Quarto 3 (idoso) | 21h–22h | 30 s | 14 apagamentos, 14 imóveis, nenhuma reação | O idoso dorme por volta das 21h35 |
+
+**Efeito do aceite**, por dia de teste. Os braços têm as mesmas rotinas e sementes, e a diferença tem IC 95% sobre as 10 sementes. Simulação, não medição:
+
+| Medida (casa inteira) | Recusar (controle) | Aceitar tudo | Diferença |
+|---|---|---|---|
+| Escuro com alguém acordado | 1.732 s | 376 s | −1.355 ± 54 s (−78%) |
+| Apagamentos com alguém acordado | 228 | 47 | −181 ± 7 (−79%) |
+| Aceso sem ninguém | 2.067 s | 3.398 s | +1.331 ± 71 s (+64%) |
+| Aceso com todos dormindo | 188 s | 352 s | +165 ± 65 s (+88%) |
+
+| Cômodo | O que melhora | O que custa |
+|---|---|---|
+| Sala | escuro com alguém acordado 1.445 → 316 s; apagamentos 191 → 41 | aceso sem ninguém 272 → 1.142 s |
+| Cozinha | escuro 108 → 17 s | aceso sem ninguém 96 → 424 s |
+| Quarto (casal) | escuro 176 → 40 s (quem lê) | aceso com todos dormindo 69 → 263 s; aceso sem ninguém 421 → 554 s |
+| Quarto 3 | aceso com todos dormindo 64 → 34 s | — |
+
+## 16. Leitura e achados
+
+- **O aprendizado resolve o dilema da E14 em parte.** O dilema era quem lê × quem dorme, sem hora do dia. Com hora do dia e perfil por cômodo, o gêmeo separa os dois casos onde eles acontecem em horas diferentes: sala à tarde e à noite, contra o quarto 3 às 21h.
+- **RS-11. Onde os dois casos se misturam na mesma hora, a sugestão cobra caro.** No quarto do casal às 22h, a moradora lê e o marido já dorme. O gêmeo vê reação ao escuro e sugere 5 min, bom para ela e ruim quando os dois adormecem: +195 s aceso com todos dormindo, por noite. É a decisão que o E15 entrega ao titular. Pelos números por cômodo, aceitar só as faixas da sala, da cozinha e do quarto 3 manteria cerca de 90% do ganho no escuro (1.219 de 1.355 s) sem esse custo. É uma estimativa pela soma dos cômodos, ainda não medida: `--politica comodos:sala,cozinha,quartotres`.
+- **O custo do T longo é o desperdício.** Desperdício quer dizer luz acesa depois que o cômodo esvazia: +1.331 s por dia, quase todo na sala. O plano previa a troca; a medida a torna explícita para o artigo.
+- **RS-10. O sinal de "alguém dentro" exige movimento depois da passagem.** A criança entra no quarto 2 e deita em seguida. O único movimento visto acontece até 10 s depois da passagem, e o modelo o trata como "passou e saiu". Por isso o quarto 2 nunca recebeu a faixa curta, embora a criança durma lá todas as noites. Sem identificar ninguém, o gêmeo não distingue "entrou e deitou" de "passou". É uma limitação honesta do modelo, que vai para a discussão do E15 e para o refinamento RS-10 na V2/V3 v06.
+- **A sugestão converge e é estável.** Em 10 de 10 sementes, as mesmas faixas. A variação da rotina (±10 a ±30 min) não mudou o que o gêmeo aprende com 14 dias e o mínimo de 5 dias de evidência por hora.
+- **RS-12. O aceite precisa do caminho da versão de configuração.** O S05 mostra que o aceite com o canal fora fica PENDENTE e só vale na reconexão. A OR-12 (decisões locais iguais com e sem rede) não se aplica a um aceite, que muda a casa de propósito, como comando e preferência.
+- **RS-13. Privacidade.** O perfil guardado (`dados/aprendizado-*-sugestoes.json`) tem só cômodo, hora e contagens. Mesmo assim revela a rotina da casa: a que horas o idoso dorme, quem lê no quarto às 22h. Na V2/V3 v06, ele vira a classe de dado "comportamental agregado", ainda pessoal.
+
+## 17. Ajustes feitos na construção (◆)
+
+| Item | Ajuste | Motivo |
+|---|---|---|
+| ◆ Ação `LER` | Nova ação de ocupante: parado e acordado, acena de 3 a 10 s depois que a luz do cômodo apaga | Sem reação ao escuro, não haveria o que o gêmeo aprender sobre quem lê. O `PARADO` não reage, e mudar o `PARADO` mudaria os cenários antigos |
+| ◆ Janela do dia | Das 17h à 1h (8 h), e não 24 h | Custo: 29 s por dia simulado com 5 ocupantes e 7 cômodos. É o trecho em que ler e dormir acontecem |
+| ◆ Braços pareados | Treino uma vez; teste em dois braços (aceitar × recusar) nos mesmos dias e sementes | A comparação antes × depois de um braço só mistura o efeito do aceite com a variação da rotina |
+| ◆ Política de aceite | Opção `--politica` (todas, longas, curtas, por cômodo) | E15.2: o aluno decide como titular |
+| ◆ OR-12 e aceite | `APP_ACEITAR` entra em `tem_app` | O aceite muda decisões locais de propósito (§16, RS-12) |
+| ◆ S04 | Começa às 22h50, não às 22h40 | A faixa das 23h precisava entrar antes de a moradora dormir |
+| ◆ C03 da v3dt | Continua com dois quartos | Ver §11 |
+
+## 18. Critérios de pronto
+
+| ID | Situação |
+|---|---|
+| CP-V3-01 | ✔ Comparação V0–V3 no `nucleo-v1.3` (§12) |
+| CP-V3-02 | ✔ Sem aceite, nada muda: 92 + 120 assinaturas iguais; com aceite, as faixas valem (S02, S04, S05) e a OR-17 é respeitada |
+| CP-V3-03 | ✔ 10 sementes de 21 dias, com o efeito por cômodo e faixa (§15; planilha `aprendizado-V3-v3dt1.xlsx`) |
+| CP-V3-04 | ✔ Testes da OR-17: aplicar sem aceite, versão sem aceite, sugestão recusada numa versão, dado por ocupante |
+
+**Documentos da plataforma:** V2/V3 v06 (RF-ACO-09, Sugestao, PerfilOcupacao, FaixaHoraria, INV-17, OC-17, §3.6.4) e PD10 para a V1, conforme o §6.

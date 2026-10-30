@@ -1,0 +1,7997 @@
+{
+ "0": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 198,
+     "reacoes": 198,
+     "imoveis": 0,
+     "dias": 13
+    },
+    "motivo": "em 198 de 198 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 348,
+     "reacoes": 334,
+     "imoveis": 8,
+     "dias": 14
+    },
+    "motivo": "em 334 de 348 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2483,
+     "reacoes": 2475,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2475 de 2483 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 21,
+      "reacoes": 19,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 0
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 36,
+      "reacoes": 35,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 8,
+      "reacoes": 7,
+      "imoveis": 0
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 39,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 5,
+      "reacoes": 4,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 44,
+      "reacoes": 43,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 16,
+      "reacoes": 15,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 8,
+      "reacoes": 7,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "1": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 164,
+     "reacoes": 163,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 163 de 164 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 325,
+     "reacoes": 311,
+     "imoveis": 10,
+     "dias": 14
+    },
+    "motivo": "em 311 de 325 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2526,
+     "reacoes": 2520,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2520 de 2526 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 22,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 9,
+      "reacoes": 8,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 0
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quarto|21": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 43,
+      "reacoes": 42,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 14,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 37,
+      "reacoes": 35,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 28,
+      "reacoes": 27,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 13,
+      "reacoes": 12,
+      "imoveis": 0
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 28,
+      "reacoes": 27,
+      "imoveis": 0
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 14,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "2": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 187,
+     "reacoes": 187,
+     "imoveis": 0,
+     "dias": 13
+    },
+    "motivo": "em 187 de 187 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 273,
+     "reacoes": 258,
+     "imoveis": 6,
+     "dias": 14
+    },
+    "motivo": "em 258 de 273 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2631,
+     "reacoes": 2625,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2625 de 2631 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 37,
+      "reacoes": 37,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 21,
+      "reacoes": 20,
+      "imoveis": 0
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 12,
+      "reacoes": 11,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 34,
+      "reacoes": 33,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 0
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 0
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 7,
+      "reacoes": 6,
+      "imoveis": 0
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 39,
+      "reacoes": 38,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 29,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 4,
+      "reacoes": 3,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 25,
+      "reacoes": 23,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 0
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 33,
+      "reacoes": 32,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 0
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 11,
+      "reacoes": 10,
+      "imoveis": 0
+     }
+    }
+   }
+  }
+ },
+ "3": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 216,
+     "reacoes": 215,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 215 de 216 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 331,
+     "reacoes": 316,
+     "imoveis": 12,
+     "dias": 14
+    },
+    "motivo": "em 316 de 331 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2527,
+     "reacoes": 2520,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2520 de 2527 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 25,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 33,
+      "reacoes": 31,
+      "imoveis": 1
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 21,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 19,
+      "reacoes": 18,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 38,
+      "reacoes": 36,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 23,
+      "reacoes": 22,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 14,
+      "reacoes": 13,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 37,
+      "reacoes": 37,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 19,
+      "reacoes": 18,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 5,
+      "reacoes": 4,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 48,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 14,
+      "reacoes": 13,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "4": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 183,
+     "reacoes": 183,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 183 de 183 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 311,
+     "reacoes": 300,
+     "imoveis": 8,
+     "dias": 14
+    },
+    "motivo": "em 300 de 311 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2474,
+     "reacoes": 2470,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2470 de 2474 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 44,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 5,
+      "reacoes": 4,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 16,
+      "reacoes": 15,
+      "imoveis": 1
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 10,
+      "reacoes": 9,
+      "imoveis": 0
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 37,
+      "reacoes": 37,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 12,
+      "reacoes": 11,
+      "imoveis": 0
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 29,
+      "reacoes": 27,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 21,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 44,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 11,
+      "reacoes": 10,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "5": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 190,
+     "reacoes": 189,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 189 de 190 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 350,
+     "reacoes": 339,
+     "imoveis": 8,
+     "dias": 14
+    },
+    "motivo": "em 339 de 350 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2482,
+     "reacoes": 2477,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2477 de 2482 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 20,
+      "reacoes": 19,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 44,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 0
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 20,
+      "reacoes": 19,
+      "imoveis": 0
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 35,
+      "reacoes": 34,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 29,
+      "reacoes": 28,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 34,
+      "reacoes": 33,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 27,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 14,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "6": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 181,
+     "reacoes": 181,
+     "imoveis": 0,
+     "dias": 13
+    },
+    "motivo": "em 181 de 181 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 313,
+     "reacoes": 306,
+     "imoveis": 7,
+     "dias": 14
+    },
+    "motivo": "em 306 de 313 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2502,
+     "reacoes": 2495,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2495 de 2502 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 9,
+      "reacoes": 8,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 9,
+      "reacoes": 8,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 38,
+      "reacoes": 37,
+      "imoveis": 1
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 44,
+      "reacoes": 44,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 21,
+      "reacoes": 20,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 4,
+      "reacoes": 3,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 21,
+      "reacoes": 20,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 35,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 4,
+      "reacoes": 3,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "7": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 162,
+     "reacoes": 162,
+     "imoveis": 0,
+     "dias": 13
+    },
+    "motivo": "em 162 de 162 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 316,
+     "reacoes": 304,
+     "imoveis": 6,
+     "dias": 14
+    },
+    "motivo": "em 304 de 316 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2552,
+     "reacoes": 2542,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2542 de 2552 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 20,
+      "reacoes": 19,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 18,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 38,
+      "reacoes": 37,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 3,
+      "reacoes": 2,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 21,
+      "imoveis": 0
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 13,
+      "reacoes": 12,
+      "imoveis": 0
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 6,
+      "reacoes": 5,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 28,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 4,
+      "reacoes": 3,
+      "imoveis": 0
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 23,
+      "reacoes": 22,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 21,
+      "imoveis": 0
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 40,
+      "reacoes": 39,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 26,
+      "reacoes": 25,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 32,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "sala|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     }
+    }
+   }
+  }
+ },
+ "8": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 195,
+     "reacoes": 195,
+     "imoveis": 0,
+     "dias": 13
+    },
+    "motivo": "em 195 de 195 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 334,
+     "reacoes": 320,
+     "imoveis": 11,
+     "dias": 14
+    },
+    "motivo": "em 320 de 334 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2381,
+     "reacoes": 2375,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2375 de 2381 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 36,
+      "reacoes": 36,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 4,
+      "reacoes": 3,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 13,
+      "reacoes": 12,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 36,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 2,
+      "reacoes": 1,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 26,
+      "reacoes": 26,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 38,
+      "reacoes": 38,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 14,
+      "imoveis": 1
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 12,
+      "reacoes": 11,
+      "imoveis": 1
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|21": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 44,
+      "reacoes": 43,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 35,
+      "reacoes": 34,
+      "imoveis": 1
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 21,
+      "reacoes": 21,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 26,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 1,
+      "reacoes": 1,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 24,
+      "reacoes": 23,
+      "imoveis": 1
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 19,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 12,
+      "reacoes": 11,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 10,
+      "reacoes": 8,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 39,
+      "reacoes": 39,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 9,
+      "reacoes": 9,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 35,
+      "reacoes": 35,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 43,
+      "reacoes": 41,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ },
+ "9": {
+  "sugestoes": [
+   {
+    "id": "SUG-cozinha-19-21",
+    "comodo": "cozinha",
+    "de": "19:00",
+    "ate": "21:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 170,
+     "reacoes": 169,
+     "imoveis": 0,
+     "dias": 12
+    },
+    "motivo": "em 169 de 170 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quarto-22-23",
+    "comodo": "quarto",
+    "de": "22:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 263,
+     "reacoes": 255,
+     "imoveis": 5,
+     "dias": 14
+    },
+    "motivo": "em 255 de 263 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   },
+   {
+    "id": "SUG-quartotres-21-22",
+    "comodo": "quartotres",
+    "de": "21:00",
+    "ate": "22:00",
+    "t_apagamento_ms": 30000,
+    "evidencia": {
+     "apagamentos": 14,
+     "reacoes": 0,
+     "imoveis": 14,
+     "dias": 14
+    },
+    "motivo": "em 14 de 14 apagamentos com alguém dentro, ninguém se mexeu por 10 min e nunca houve reação: provavelmente alguém dormindo",
+    "efeito": "menos tempo aceso com quem dorme; quem estiver acordado e parado fica no escuro mais cedo"
+   },
+   {
+    "id": "SUG-sala-17-23",
+    "comodo": "sala",
+    "de": "17:00",
+    "ate": "23:00",
+    "t_apagamento_ms": 300000,
+    "evidencia": {
+     "apagamentos": 2563,
+     "reacoes": 2556,
+     "imoveis": 0,
+     "dias": 14
+    },
+    "motivo": "em 2556 de 2563 apagamentos com alguém dentro, houve movimento logo depois: alguém parado e acordado ficou no escuro",
+    "efeito": "menos apagamentos com gente acordada; mais tempo aceso depois que o cômodo esvazia"
+   }
+  ],
+  "aceitas": [
+   "SUG-cozinha-19-21",
+   "SUG-quarto-22-23",
+   "SUG-quartotres-21-22",
+   "SUG-sala-17-23"
+  ],
+  "modelo": {
+   "retencao_dias": 30,
+   "dias": {
+    "1": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 40,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     }
+    },
+    "2": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 18,
+      "reacoes": 18,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 43,
+      "reacoes": 43,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "quarto|22": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 1
+     }
+    },
+    "3": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     }
+    },
+    "4": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 24,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 31,
+      "reacoes": 31,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 11,
+      "reacoes": 11,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     }
+    },
+    "5": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 33,
+      "reacoes": 33,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 10,
+      "reacoes": 10,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 5,
+      "reacoes": 4,
+      "imoveis": 1
+     }
+    },
+    "6": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 49,
+      "reacoes": 49,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 19,
+      "reacoes": 19,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 14,
+      "reacoes": 13,
+      "imoveis": 0
+     }
+    },
+    "7": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 43,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 16,
+      "reacoes": 16,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 12,
+      "reacoes": 12,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     }
+    },
+    "8": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 14,
+      "reacoes": 14,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 14,
+      "reacoes": 13,
+      "imoveis": 1
+     }
+    },
+    "9": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 40,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 6,
+      "reacoes": 6,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 32,
+      "reacoes": 32,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 15,
+      "reacoes": 15,
+      "imoveis": 0
+     }
+    },
+    "10": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 31,
+      "reacoes": 30,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 27,
+      "reacoes": 27,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 2,
+      "reacoes": 2,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 45,
+      "reacoes": 45,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 13,
+      "reacoes": 12,
+      "imoveis": 1
+     }
+    },
+    "11": {
+     "sala|17": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 42,
+      "reacoes": 42,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 25,
+      "reacoes": 25,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 11,
+      "reacoes": 10,
+      "imoveis": 0
+     }
+    },
+    "12": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 29,
+      "reacoes": 28,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 30,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 4,
+      "reacoes": 4,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 46,
+      "reacoes": 46,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 13,
+      "reacoes": 13,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 34,
+      "reacoes": 34,
+      "imoveis": 0
+     },
+     "quarto|23": {
+      "apagamentos": 5,
+      "reacoes": 4,
+      "imoveis": 1
+     }
+    },
+    "13": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 25,
+      "reacoes": 24,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 22,
+      "reacoes": 22,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 5,
+      "reacoes": 5,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 3,
+      "reacoes": 3,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 17,
+      "reacoes": 17,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 48,
+      "reacoes": 48,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 29,
+      "reacoes": 29,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 20,
+      "reacoes": 19,
+      "imoveis": 1
+     }
+    },
+    "14": {
+     "sala|17": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "sala|18": {
+      "apagamentos": 41,
+      "reacoes": 41,
+      "imoveis": 0
+     },
+     "sala|19": {
+      "apagamentos": 23,
+      "reacoes": 23,
+      "imoveis": 0
+     },
+     "cozinha|19": {
+      "apagamentos": 7,
+      "reacoes": 7,
+      "imoveis": 0
+     },
+     "cozinha|20": {
+      "apagamentos": 8,
+      "reacoes": 8,
+      "imoveis": 0
+     },
+     "sala|20": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "sala|21": {
+      "apagamentos": 47,
+      "reacoes": 47,
+      "imoveis": 0
+     },
+     "quartotres|21": {
+      "apagamentos": 1,
+      "reacoes": 0,
+      "imoveis": 1
+     },
+     "sala|22": {
+      "apagamentos": 20,
+      "reacoes": 20,
+      "imoveis": 0
+     },
+     "quarto|22": {
+      "apagamentos": 17,
+      "reacoes": 16,
+      "imoveis": 1
+     }
+    }
+   }
+  }
+ }
+}
